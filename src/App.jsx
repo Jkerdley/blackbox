@@ -1,16 +1,7 @@
-import { useState } from "react";
-import "./App.css";
-
+import { BlackBox } from "./components/BlackBox";
+import "./index.css";
 function App() {
-    const [count, setCount] = useState(0);
-
-    return (
-        <>
-            <div>
-                <h1>Hello</h1>
-            </div>
-        </>
-    );
+    return <BlackBox />;
 }
 
 export default App;
